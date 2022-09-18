@@ -1,0 +1,29 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  margin: 0;
+}
+
+a {
+  color: #0ed7b2;
+  text-decoration: none;
+  background: transparent;
+  transition: background 1s ease, padding 1s ease;
+}
+a:hover {
+  color: white;
+  background: #0ed7b2;
+}
+a:visited {
+  color: #57f4d7;
+}
+
+div.border {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
