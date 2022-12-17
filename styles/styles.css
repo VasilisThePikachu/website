@@ -7,16 +7,25 @@ body {
   margin: 0;
 }
 
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 a {
   color: #0ed7b2;
   text-decoration: none;
   background: transparent;
   transition: background 1s ease, padding 1s ease;
 }
+
 a:hover {
   color: white;
   background: #0ed7b2;
 }
+
 a:visited {
   color: #57f4d7;
 }
@@ -25,5 +34,3 @@ div.border {
   border: 1px solid #ffffff;
   border-radius: 20px;
 }
-
-/*# sourceMappingURL=styles.css.map */
