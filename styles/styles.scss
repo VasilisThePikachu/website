@@ -7,12 +7,19 @@ body {
     margin: 0;
 }
 
-
 $link-color: #0ed7b2;
 $hover-color: darken($link-color, 20%);
 $visited-color: lighten($link-color, 20%);
 
-//link styling
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+// link styling
+
 a{
     color: $link-color;
     text-decoration: none;
@@ -20,7 +27,6 @@ a{
     transition: background 1s ease, padding 1s ease;
 
     &:hover{
-        //color: $hover-color;
         color: white;
         background: #0ed7b2;
     }
@@ -34,6 +40,5 @@ a{
 div.border{
     border: 1px solid #ffffff;
     border-radius: 20px;
-
 }
 
