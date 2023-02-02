@@ -1,3 +1,3 @@
 function discord(){
-    alert ("My discord is Vasilis#7272");
+    alert ("My discord is Vasilis#1861");
 }
