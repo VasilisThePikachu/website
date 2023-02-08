@@ -36,3 +36,7 @@ div.border {
   margin-bottom: 15px;
   padding: 5px;
 }
+
+.pixelated {
+  image-rendering: pixelated;
+}
